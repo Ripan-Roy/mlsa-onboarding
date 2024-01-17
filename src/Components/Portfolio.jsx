@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/chill.webp";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Facemask Detection using Intel optimised Scikit-Learn Library(oneAPI)🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Made a Facemask Detection using intel optimised sklearn package and Support Vector Machine Algorithm.",
+    url: "https://medium.com/@ripanroy111/face-mask-detection-using-svm-intel-oneapi-optimised-scikit-learn-library-fdb80cc6687d",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Nivaaran - AI Analytics and Toolkit",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "a technological solution based on live CCTV feeds that automatically detect incidents related to street crime, violence, burglary, theft, infiltration, unauthorized access, etc., and generate alerts to the nearest Police Station. The solution should also be able to create a report and maintain a database that includes the nature of the incident/crime, location, time, level of alert (i.e., low, medium, high-risk alert), etc.",
+    url: "https://nivaaran.live/",
   },
   {
-    title: "My Resume Site",
+    title: "pdfGPT",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created a Streamlit app using Python that assists users in extracting information from uploaded PDFs. Implemented Text chunking, Embedding Generation, and a Conversational Interface. Leveraged Hugging Face Trans-formers and FAISS for NLP tasks, showcasing proficiency in PDF handling, text processing,and UI design.",
+    url: "https://pdfgptai.streamlit.app/",
   },
 ];
 
